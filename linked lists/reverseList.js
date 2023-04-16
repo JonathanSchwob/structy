@@ -15,7 +15,6 @@
 // };
 
 // recursive solution | Time: O(n), Space: O(n)
-
 const reverseList = (head) => {
   let prev = null;
 

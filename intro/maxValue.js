@@ -1,3 +1,6 @@
+// time: O(n)
+// space: O(1)
+
 const maxValue = (nums) => {
   let max = -Infinity;
 

@@ -1,3 +1,6 @@
+// time: O(n)
+// space: O(n)
+
 const compress = (s) => {
   let i = 0;
   let j = 0;
