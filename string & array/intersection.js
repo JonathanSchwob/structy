@@ -14,3 +14,6 @@ const intersection = (a, b) => {
 
   return out;
 };
+
+// time: O(n + m)
+// space: O(n)

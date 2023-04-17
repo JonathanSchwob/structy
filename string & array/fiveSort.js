@@ -16,3 +16,6 @@ const fiveSort = (nums) => {
 
   return nums;
 };
+
+// time: O(n)
+// space: O(1)

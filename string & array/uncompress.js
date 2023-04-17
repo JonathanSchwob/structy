@@ -1,6 +1,3 @@
-// time: O(nm)
-// space: O(nm)
-
 const uncompress = (s) => {
   const numbers = "0123456789";
   let i = 0;
@@ -21,3 +18,6 @@ const uncompress = (s) => {
   }
   return out.join("");
 };
+
+// time: O(nm)
+// space: O(nm)

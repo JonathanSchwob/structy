@@ -9,3 +9,6 @@ const pairProduct = (numbers, targetProduct) => {
     }
   }
 };
+
+// time: O(n)
+// spasce: O(n)

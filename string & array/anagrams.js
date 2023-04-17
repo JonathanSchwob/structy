@@ -1,6 +1,3 @@
-// time: O(n + m)
-// space: O(n)
-
 const anagrams = (s1, s2) => {
   const chars = {};
 
@@ -27,3 +24,6 @@ const anagrams = (s1, s2) => {
   }
   return true;
 };
+
+// time: O(n + m)
+// space: O(n)

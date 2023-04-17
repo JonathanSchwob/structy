@@ -1,6 +1,3 @@
-// time: O(n)
-// space: O(n)
-
 const compress = (s) => {
   let i = 0;
   let j = 0;
@@ -21,3 +18,6 @@ const compress = (s) => {
 
   return out.join("");
 };
+
+// time: O(n)
+// space: O(n)

@@ -1,6 +1,3 @@
-// time: O(sqrt(n))
-// space: O(1)
-
 const isPrime = (n) => {
   if (n < 2) {
     return false;
@@ -14,3 +11,6 @@ const isPrime = (n) => {
 
   return true;
 };
+
+// time: O(sqrt(n))
+// space: O(1)
