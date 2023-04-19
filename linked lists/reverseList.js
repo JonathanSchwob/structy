@@ -15,16 +15,10 @@
 // };
 
 // recursive solution | Time: O(n), Space: O(n)
-const reverseList = (head) => {
-  let prev = null;
-
-  return reverse(head, prev);
-};
-
-const reverse = (head, prev) => {
+const reverseList = (head, prev = null) => {
   if (head === null) return prev;
   const next = head.next;
   head.next = prev;
   prev = head;
-  return reverse(next, head);
+  return reverseList(next, prev);
 };

@@ -2,16 +2,17 @@
 // const zipperLists = (head1, head2) => {
 //   let current1 = head1;
 //   let current2 = head2;
+//   let next = null;
 
 //   while (current1 !== null && current2 !== null) {
-//     const temp = current1.next;
+//     next = current1.next;
 //     current1.next = current2;
 //     current1 = current2;
-//     current2 = temp;
+//     current2 = next;
 //   }
 
 //   return head1;
-// }
+// };
 
 // recursive solution | time: O(n), space: O(n)
 const zipperLists = (head1, head2) => {

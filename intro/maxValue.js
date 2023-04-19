@@ -10,5 +10,5 @@ const maxValue = (nums) => {
   return max;
 };
 
-// time: O(n)
+// time: O(n)l
 // space: O(1)
