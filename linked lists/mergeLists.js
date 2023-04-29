@@ -1,5 +1,4 @@
 // iterative | time: O(n) - space: O(1)
-
 const mergeLists = (head1, head2) => {
   const dummyNode = new Node(null);
   let tail = dummyNode;
@@ -24,3 +23,18 @@ const mergeLists = (head1, head2) => {
 };
 
 // recursive | time: O(n) - space: O(n)
+// const mergeLists = (head1, head2) => {
+//   if (head1 === null && head2 === null) return null;
+//   if (head1 === null) return head2;
+//   if (head2 === null) return head1;
+
+//   if (head1.val < head2.val) {
+//     const temp = head1.next;
+//     head1.next = mergeLists(temp, head2);
+//     return head1;
+//   } else {
+//     const temp = head2.next;
+//     head2.next = mergeLists(head1, temp);
+//     return head2;
+//   }
+// };

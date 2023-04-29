@@ -22,3 +22,22 @@ const longestStreak = (head) => {
   }
   return longest;
 };
+
+// recursive | time: O(n) - space: O(n)
+// const longestStreak = (head, value = null, streak = 0, count = 0) => {
+//   if (head === null) return streak;
+//   if (value === null) value = head.val;
+//   if (head.val !== value) {
+//     if (streak < count) {
+//       streak = count;
+//     }
+//     value = head.val;
+//     count = 0;
+//   }
+
+//   count += 1;
+//   if (streak < count) {
+//     streak = count;
+//   }
+//   return longestStreak(head.next, value, streak, count);
+// };
