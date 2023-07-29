@@ -1,1 +1,1 @@
-# dsa solutions in js
+# data structures & algorithms problem solutions in js
